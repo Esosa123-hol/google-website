@@ -18,7 +18,8 @@ const Header = () => {
     return(
         <div className="headerContainer">
             <section>
-                <img className="logo" src="./src/assets/aboutimage/google-logo-about.svg" alt="logo" />
+                <img className="logo" src="/google-logo-about.svg" alt="logo" />
+
             </section>
             <div className="navigation">
                 <NavLink className="page-link" to="/" onClick="activeAboute()" style={{borderBottom: isAboutActive ? 'solid rgb(244, 74, 7) 3px' : 'solid rgb(13, 13, 216) 3px'}} >About</NavLink>
