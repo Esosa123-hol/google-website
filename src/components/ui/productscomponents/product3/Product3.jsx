@@ -1,6 +1,6 @@
 import "./Product3.css";
-import android from '../../../../assets/product-images/android-1.png'
-import phone from '../../../../assets/product-images/phone-2.webp'
+import android from '../../../../assets/product-images/android-2.png';
+import phone from '../../../../assets/product-images/phone.webp';
 
 const Product3 = () => {
     return (
