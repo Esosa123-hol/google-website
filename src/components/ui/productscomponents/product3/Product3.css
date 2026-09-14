@@ -1,0 +1,35 @@
+.heder{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.apd{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 28px;
+    justify-content: center;
+    margin: 8%;
+    height: 560px;
+  /* background:#E8F0FE; */
+   display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    /* padding: 32px; */
+    justify-items: center;
+  
+}
+
+.android img{
+    width: 400px;
+}
+.pixel img{
+    width: 400px;
+}
+.android{
+    /* height: 400px; */
+}

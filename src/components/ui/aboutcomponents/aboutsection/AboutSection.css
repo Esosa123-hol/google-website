@@ -1,0 +1,52 @@
+.cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 4px;
+    background-color: white;
+    min-height: 160px
+}
+
+.card {
+  width: 32%;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  padding: 25px;
+}
+
+.card-content p {
+  font-size: 20px;
+  font-family: "Google Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: #4a4a4a;
+}
+.about-section{
+    display: flex;
+    /* margin-bottom: 40px; */
+    padding: 70px 50px;
+    background-color: rgb(249, 247, 247);
+}
+.card-icon{
+     /* width: 12px;            
+     height: auto;
+     align-self: flex-end; */
+
+     position: absolute;
+  bottom: 16px;               /* Pushes it up from the bottom edge */
+  right: 16px;                /* Pushes it away from the right edge */
+  width: 18px;                /* Makes it the tiny, elegant size seen in the original */
+  height: 18px;
+  object-fit: contain;
+}

@@ -1,0 +1,37 @@
+.icons-wrapper{
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+.floating-icons {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: max-content;
+  padding: 0px 40px;
+  overflow:hidden;
+  gap: 100px;
+  
+  animation: moveIcons 25s linear infinite;
+}
+
+.floating-icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  
+
+}
+
+/* Floating movement */
+@keyframes moveIcons { 
+    from {
+        transform: translateX(100vw);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+
+ 
+}
