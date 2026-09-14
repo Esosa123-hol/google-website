@@ -1,5 +1,4 @@
 import "./Header.css"
-import google from "../../assets"
 import { NavLink } from "react-router-dom";
 
 let isAboutActive = false;
